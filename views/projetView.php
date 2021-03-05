@@ -106,7 +106,7 @@ include("commun/connexion.php");
           for($i=0;$i<sizeof($tableau_mots_cles);$i++)
           {
             $chaque_mot = rtrim($tableau_mots_cles[$i], "s"); //Supprime le s de fin soit le pluriel
-            if(strlen($chaque_mot)>3)
+            if(strlen($chaque_mot)>2)
             {   
               $titre_fiche=str_replace($chaque_mot,"<span style='background-color:yellow;'>".$chaque_mot."</span>",$titre_fiche);
             }
@@ -139,7 +139,7 @@ include("commun/connexion.php");
               if(strpos(supprAccents(supprSpeciaux(strtolower($retour["f_motscles"]))),$chaque_mot)!==false)
                 $proportion++;
               
-              if(strlen($chaque_mot)>3)
+              if(strlen($chaque_mot)>2)
               {   
                 $titre_fiche=str_replace($chaque_mot, "<span style='background-color:yellow;'>".$chaque_mot."</span>",$titre_fiche);
               }
