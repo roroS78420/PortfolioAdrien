@@ -17,6 +17,7 @@
 <!-- style css -->
 <link rel="stylesheet" type="text/css" href="css/style1.css">
 <link rel="stylesheet" type="text/css" href="css/404.css">
+<link rel="stylesheet" type="text/css" href="css/search.css">
 <!-- Responsive-->
 <link rel="stylesheet" href="css/responsive.css">
 <!-- fevicon -->

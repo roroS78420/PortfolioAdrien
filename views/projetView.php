@@ -179,15 +179,7 @@ include("commun/connexion.php");
       <div class="div_saut_ligne" style="height:30px;">
       </div>            
       
-      <div style="float:left;width:10%;height:40px;"></div>
-      <div style="float:left;width:80%;height:40px;text-align:center;">
-      <div style="width:auto;display:block;height:auto;text-align:center;background-color:#ccccff;border:#7030a0 1px solid;padding-top:12px;box-shadow: 6px 6px 0px #aaa;color:#7030a0;">
-      <h1>Moteur de recherche en PHP</h1>
-      </div>
-      </div>
-          
-      <div style="float:left;width:10%;height:40px;"></div>
-      
+     
       <div class="div_saut_ligne">
       </div>    
       
@@ -195,14 +187,14 @@ include("commun/connexion.php");
             
       <div style="width:800px;display:inline-block;" id="conteneur">
       
-        <div class="centre">
+        <div class="warp">
           <div class="titre_centre">
           <form id="formulaire" name="formulaire" method="post" action="projet">           
             <div class="liste_div">
-              <input type="text" id="mc" name="mc" class="liste" value="Vos mots clés de recherche" onClick="this.value='';" />
+              <input type="text" id="mc" name="mc" class="searchTerm" value="Vos mots clés de recherche" onClick="this.value='';" />
             </div>
-            <div class="liste_div" style="float:right;">
-              <input type="submit" id="valider" name="valider" class="liste" style="width:100px;" value="Valider" />
+            <div class="liste_div" style="float:left;">
+              <input type="submit" id="valider" name="valider" class="searchButton" style="width:100px;" value="Valider" />
             </div>            
           </form>         
           </div>  
@@ -228,6 +220,48 @@ include("commun/connexion.php");
 
       <div class="div_saut_ligne" style="height:50px;">
       </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
