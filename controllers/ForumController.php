@@ -1,3 +1,3 @@
 <?php
-    require "./views/ForumView.php";
+    require "./views/projet/ForumView.php";
 ?>

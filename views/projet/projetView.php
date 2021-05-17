@@ -24,15 +24,16 @@
 
 <?php
 
-if (isset($_POST['subsearch']))  {
+if (isset($_POST['subsearch'])) {
     $search = htmlentities($_POST['f_titre']);
     $sql = "SELECT * FROM formations WHERE ";
 
     if (strlen($search) > 0)
         $sql .= "f_titre LIKE '%$search%' ";
 
-    $sql = substr($sql, 0, strlen($sql)-0);
 
+    $sql = substr($sql, 0, strlen($sql)-0);
+    
     $requete = $bdd->query($sql);
    
 
