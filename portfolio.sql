@@ -20,7 +20,9 @@ SET time_zone = "+00:00";
 --
 -- Base de données : `portfolio`
 --
-
+DROP DATABASE IF EXISTS portfolio;
+ CREATE DATABASE portfolio;
+ USE portfolio;
 -- --------------------------------------------------------
 
 --
