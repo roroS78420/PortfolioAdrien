@@ -51,12 +51,15 @@ if (isset($_POST['subsearch']))  {
 
 <p class="imglist" style="max-width: 1000px;">
   <a href="images/filelec.png" data-fancybox="images" data-caption="projet PPE">
-    <img src="images/filelec.png" width="800px" height="500px" />
+    <img src="images/filelec.png" width="400px" height="300px" />
   </a>
 <input type="button" value="En savoir plus" class="homebutton" id="btnHome" 
 onClick="document.location.href='PPE'" />
+
+<br>
+
   <a href="images/forum.png" data-fancybox="images" data-caption="Un forum">
-    <img src="images/forum.png" />
+    <img src="images/forum.png" width="400px" height="300px"/>
   </a>
   <input type="button" value="En savoir plus" class="homebutton" id="btnHome" 
 onClick="document.location.href='Forum'" />
