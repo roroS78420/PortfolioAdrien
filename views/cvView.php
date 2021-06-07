@@ -17,7 +17,7 @@
                             </div>
                             <br/>
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
-                            <p><a class="btn btn-primary" href="http://localhost/portfolio1/CV.php" download="CV.doc">Télécharger le CV (sous format Word)</a></p>
+                            <p><a class="btn btn-primary" href="http://adriendoll.fr/docs/CV_Doll.docx" download="CV_Doll.doc">Télécharger le CV (sous format Word)</a></p>
                             </div>
                         </div>
                     </div>

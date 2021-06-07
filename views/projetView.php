@@ -64,6 +64,14 @@ onClick="document.location.href='PPE'" />
   <input type="button" value="En savoir plus" class="homebutton" id="btnHome" 
 onClick="document.location.href='Forum'" />
 
+<br>
+
+  <a href="images/forum.png" data-fancybox="images" data-caption="Un forum">
+    <img src="images/auto.png" width="400px" height="300px"/>
+  </a>
+  <input type="button" value="En savoir plus" class="homebutton" id="btnHome" 
+onClick="document.location.href='Auto'" />
+
   
 </p>
                     

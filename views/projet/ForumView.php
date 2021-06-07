@@ -16,6 +16,9 @@
                                     <div class="like_icon"></div>
                                     <h1 class="written_text">Mon Forum</h1>
                                     <p>Cette section est en rapport avec le projet réalisée pendant les vacances de Toussaint 2020 et qui concerne la réalisation d'un forum ou apparaissent les fonctionalités d'ajouter et supprimer une catégories via un administrateur et la fonction de rédaction de message et posté sur le forum  </p>
+<input type="submit" value="Acceder au projet" class="btn btn-outline-success" id="btnHome" onClick="document.location.href='https://github.com/MugenKata/Forum_'" />
+
+                                    
                                 </div>
                             </div>
                             

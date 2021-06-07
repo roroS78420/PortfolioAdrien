@@ -16,6 +16,7 @@
     		    					<h1 class="written_text">Mon PPE</h1>
     		    					<p>Cette section est en rapport avec le projet personalisé encadré(PPE) pendant mes 2 années de bts avec des camarades nous avons fait un travail commun qui avait pour but la réalisation d'une boutique de e-commerces de pieces automobiles  </p>
     		    					<input type="submit" value="Voir le projet en ligne" class="btn btn-outline-success" id="btnHome" onClick="document.location.href='http://ppe-filelec.com/'" />
+                                    <input type="submit" value="Acceder au projet" class="btn btn-outline-success" id="btnHome" onClick="document.location.href='https://github.com/Delacroix-75020/PPE'" />
     		    					
 
     		    			</div>
